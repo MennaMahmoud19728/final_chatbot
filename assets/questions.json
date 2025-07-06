@@ -1,0 +1,1006 @@
+{
+  "disclaimer": {
+    "ar": "هذه الاختبارات هي لأغراض توعوية فقط ولا تحل محل استشارة متخصص في الصحة النفسية.",
+    "en": "These tests are for informational purposes only and are not a substitute for professional mental health consultation."
+  },
+  "instructions": {
+    "ar": "أجب على الأسئلة الثلاثة لكل اختبار باختيار الإجابة التي تعكس تجربتك خلال الشهر الماضي. اجمع النقاط (من 0 إلى 9) لكل اختبار واستخدم نطاقات النتائج لفهم حالتك. استشر مختصًا إذا كانت النتائج تشير إلى أعراض متوسطة أو شديدة.",
+    "en": "Answer the three questions for each test by selecting the option that reflects your experience over the past month. Sum the points (from 0 to 9) for each test and use the scoring ranges to understand your condition. Consult a professional if results indicate moderate or severe symptoms."
+  },
+  "resources": {
+    "ar": "للحصول على دعم إضافي، تواصل مع مختص في الصحة النفسية أو زر مواقع مثل منظمة الصحة العالمية (WHO).",
+    "en": "For additional support, contact a mental health professional or visit websites like the World Health Organization (WHO)."
+  },
+  "tests": [
+    {
+      "id": "depression",
+      "title": {
+        "ar": "اختبار الاكتئاب",
+        "en": "Depression Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل شعرت بالحزن أو الفراغ معظم الوقت خلال الشهر الماضي؟",
+            "en": "Have you felt sad or empty most of the time over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل فقدت الاهتمام بالأنشطة التي كنت تستمتع بها خلال الشهر الماضي؟",
+            "en": "Have you lost interest in activities you used to enjoy over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل شعرت بالتعب أو نقص الطاقة بشكل مستمر خلال الشهر الماضي؟",
+            "en": "Have you felt tired or lacked energy consistently over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "gad",
+      "title": {
+        "ar": "اختبار اضطراب القلق العام",
+        "en": "Generalized Anxiety Disorder (GAD) Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل قلقت بشكل مفرط بشأن الأمور اليومية خلال الشهر الماضي؟",
+            "en": "Have you worried excessively about everyday matters over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل واجهت صعوبة في النوم بسبب كثرة التفكير خلال الشهر الماضي؟",
+            "en": "Have you had trouble sleeping due to excessive thinking over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل وجدت صعوبة في التركيز بسبب القلق خلال الشهر الماضي؟",
+            "en": "Have you found it hard to concentrate due to anxiety over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "ocd",
+      "title": {
+        "ar": "اختبار الوسواس القهري (OCD)",
+        "en": "Obsessive Compulsive Disorder (OCD) Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل كررت تصرفات معينة رغم وعيك بأنها غير منطقية خلال الشهر الماضي؟",
+            "en": "Have you repeated certain behaviors despite knowing they are illogical over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل راودتك أفكار متكررة لم تستطع التخلص منها خلال الشهر الماضي؟",
+            "en": "Have you had repetitive thoughts you couldn’t get rid of over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل شعرت بقلق شديد إذا لم تكمل طقوسك أو سلوكياتك المتكررة خلال الشهر الماضي؟",
+            "en": "Have you felt intense anxiety if you didn’t complete your rituals or repetitive behaviors over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "adhd",
+      "title": {
+        "ar": "اختبار فرط الحركة وتشتت الانتباه (ADHD)",
+        "en": "Attention Deficit Hyperactivity Disorder (ADHD) Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل وجدت صعوبة في التركيز على المهام لفترة طويلة خلال الشهر الماضي؟",
+            "en": "Have you found it hard to concentrate on tasks for a long time over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل تصرفت دون تفكير أو قطعت الآخرين كثيرًا خلال الشهر الماضي؟",
+            "en": "Have you acted without thinking or interrupted others often over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل شعرت بصعوبة في تنظيم المهام أو إدارة الوقت خلال الشهر الماضي؟",
+            "en": "Have you found it difficult to organize tasks or manage time over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "bipolar",
+      "title": {
+        "ar": "اختبار الاضطراب الوجداني ثنائي القطب",
+        "en": "Bipolar Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل مررت بفترات من النشاط المفرط والثقة الزائدة بالنفس تليها فترات من الاكتئاب خلال الشهر الماضي؟",
+            "en": "Have you gone through periods of excessive activity and overconfidence followed by depression over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل اتخذت قرارات متهورة خلال نوبات النشاط الزائد خلال الشهر الماضي؟",
+            "en": "Have you made reckless decisions during periods of high activity over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل عانيت من تغيرات مزاجية مفاجئة وشديدة خلال الشهر الماضي؟",
+            "en": "Have you experienced sudden and intense mood swings over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "ptsd",
+      "title": {
+        "ar": "اختبار اضطراب ما بعد الصدمة (PTSD)",
+        "en": "Post-Traumatic Stress Disorder (PTSD) Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل راودتك ذكريات مؤلمة من الماضي بشكل مفاجئ خلال الشهر الماضي؟",
+            "en": "Have painful memories from the past come to mind suddenly over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل تجنبت أماكن أو أشخاص تذكرك بالحادث خلال الشهر الماضي؟",
+            "en": "Have you avoided places or people that remind you of the event over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل عانيت من كوابيس متكررة متعلقة بالحادث خلال الشهر الماضي؟",
+            "en": "Have you experienced recurring nightmares related to the event over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "social_anxiety",
+      "title": {
+        "ar": "اختبار القلق الاجتماعي",
+        "en": "Social Anxiety Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل شعرت بالقلق الشديد عند التحدث أمام الآخرين خلال الشهر الماضي؟",
+            "en": "Have you felt intense anxiety when speaking in front of others over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل تجنبت المواقف الاجتماعية بسبب الخوف من الحكم عليك خلال الشهر الماضي؟",
+            "en": "Have you avoided social situations due to fear of being judged over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل عانيت من أعراض جسدية مثل التعرق أو الرعشة في المواقف الاجتماعية خلال الشهر الماضي؟",
+            "en": "Have you experienced physical symptoms like sweating or trembling in social situations over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "eating_disorder",
+      "title": {
+        "ar": "اختبار اضطرابات الأكل",
+        "en": "Eating Disorders Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل شعرت بقلق مستمر بشأن وزنك أو شكل جسمك يؤثر على حياتك اليومية خلال الشهر الماضي؟",
+            "en": "Have you felt persistent worry about your weight or body shape that affects your daily life over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل قمت بتقييد طعامك أو مارست الرياضة بشكل مفرط للسيطرة على وزنك خلال الشهر الماضي؟",
+            "en": "Have you restricted your food intake or exercised excessively to control your weight over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل شعرت بالذنب أو القلق بعد تناول كميات كبيرة من الطعام خلال الشهر الماضي؟",
+            "en": "Have you felt guilty or anxious after eating large amounts of food over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "bpd",
+      "title": {
+        "ar": "اختبار اضطراب الشخصية الحدية",
+        "en": "Borderline Personality Disorder (BPD) Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل عانيت من خوف شديد من الهجر أو الرفض خلال الشهر الماضي؟",
+            "en": "Have you experienced intense fear of abandonment or rejection over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل عانيت من علاقات شخصية غير مستقرة أو متقلبة خلال الشهر الماضي؟",
+            "en": "Have you had unstable or volatile personal relationships over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل شعرت بانعدام استقرار في هويتك أو صورتك الذاتية خلال الشهر الماضي؟",
+            "en": "Have you felt a lack of stability in your identity or self-image over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "specific_phobia",
+      "title": {
+        "ar": "اختبار الرهاب النوعي",
+        "en": "Specific Phobia Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل شعرت بخوف شديد وغير منطقي من شيء معين مثل المرتفعات أو الحيوانات خلال الشهر الماضي؟",
+            "en": "Have you felt intense and irrational fear of a specific thing like heights or animals over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل تجنبت المواقف أو الأماكن التي قد تعرضك لهذا الشيء المخيف خلال الشهر الماضي؟",
+            "en": "Have you avoided situations or places that might expose you to this feared thing over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل أثر هذا الخوف على حياتك اليومية أو نشاطاتك خلال الشهر الماضي؟",
+            "en": "Has this fear impacted your daily life or activities over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "panic_disorder",
+      "title": {
+        "ar": "اختبار اضطراب الهلع",
+        "en": "Panic Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل عانيت من نوبات خوف مفاجئة مصحوبة بأعراض مثل تسارع ضربات القلب خلال الشهر الماضي؟",
+            "en": "Have you experienced sudden panic attacks with symptoms like a racing heart over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل قلقت بشأن تكرار هذه النوبات في المستقبل خلال الشهر الماضي؟",
+            "en": "Have you worried about having these panic attacks again in the future over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل غيرت سلوكياتك لتجنب حدوث نوبات الهلع خلال الشهر الماضي؟",
+            "en": "Have you changed your behavior to avoid having panic attacks over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "acute_stress",
+      "title": {
+        "ar": "اختبار اضطراب الإجهاد الحاد",
+        "en": "Acute Stress Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل عانيت من ذكريات مؤلمة أو قلق بعد تجربة صادمة حديثة خلال الشهر الماضي؟",
+            "en": "Have you experienced painful memories or anxiety after a recent traumatic event over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل شعرت بالانفصال عن الواقع أو عن نفسك بعد الحدث خلال الشهر الماضي؟",
+            "en": "Have you felt detached from reality or yourself after the event over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل تجنبت التفكير في الحدث أو الأشياء المرتبطة به خلال الشهر الماضي؟",
+            "en": "Have you avoided thinking about the event or things related to it over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "insomnia",
+      "title": {
+        "ar": "اختبار اضطراب النوم (الأرق)",
+        "en": "Insomnia Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل وجدت صعوبة في النوم أو البقاء نائمًا معظم الليالي خلال الشهر الماضي؟",
+            "en": "Have you found it hard to fall asleep or stay asleep most nights over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل أثر قلة النوم على مزاجك أو أدائك اليومي خلال الشهر الماضي؟",
+            "en": "Has lack of sleep affected your mood or daily performance over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 3,
+          "question": {
+            "ar": "هل قلقت بشأن عدم قدرتك على النوم خلال الشهر الماضي؟",
+            "en": "Have you worried about your inability to sleep over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        }
+      ],
+      "scoring_ranges": {
+        "0-3": {
+          "ar": "لا توجد أعراض",
+          "en": "No symptoms",
+          "recommendation": {
+            "ar": "لا حاجة للقلق، استمر في مراقبة حالتك النفسية.",
+            "en": "No need to worry, continue monitoring your mental health."
+          }
+        },
+        "4-6": {
+          "ar": "أعراض خفيفة",
+          "en": "Mild symptoms",
+          "recommendation": {
+            "ar": "حاول استشارة مختص إذا استمرت الأعراض أو تفاقمت.",
+            "en": "Consider consulting a professional if symptoms persist or worsen."
+          }
+        },
+        "7-9": {
+          "ar": "أعراض متوسطة إلى شديدة",
+          "en": "Moderate to severe symptoms",
+          "recommendation": {
+            "ar": "يُنصح بشدة باستشارة مختص في الصحة النفسية في أقرب وقت.",
+            "en": "It is strongly recommended to consult a mental health professional as soon as possible."
+          }
+        }
+      }
+    },
+    {
+      "id": "narcissistic_personality",
+      "title": {
+        "ar": "اختبار اضطراب الشخصية النرجسية",
+        "en": "Narcissistic Personality Disorder Test"
+      },
+      "questions": [
+        {
+          "id": 1,
+          "question": {
+            "ar": "هل شعرت بأنك تستحق معاملة خاصة أو إعجاب الآخرين خلال الشهر الماضي؟",
+            "en": "Have you felt you deserve special treatment or admiration from others over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text": { "ar": "غالبًا", "en": "Often" }, "score": 2 },
+            { "text": { "ar": "دائمًا", "en": "Always" }, "score": 3 }
+          ]
+        },
+        {
+          "id": 2,
+          "question": {
+            "ar": "هل وجدت صعوبة في تقبل النقد أو الرفض خلال الشهر الماضي؟",
+            "en": "Have you found it hard to accept criticism or rejection over the past month?"
+          },
+          "options": [
+            { "text": { "ar": "لا أبدًا", "en": "Never" }, "score": 0 },
+            { "text": { "ar": "أحيانًا", "en": "Sometimes" }, "score": 1 },
+            { "text
